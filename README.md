@@ -1,4 +1,4 @@
 # BYAudioHud
 a audio record hud
 
-![ui](/Users/ilei/Desktop/Projects/BYAH/ui.png)
+![ui](https://github.com/ilei131/BYAudioHud/raw/master/ui.png)
