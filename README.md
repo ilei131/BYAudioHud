@@ -31,21 +31,21 @@ Objective-C用法：
 Swift用法：
 
 ```swift
- lazy var hud: BYAudioHudView = {
-        let rect = CGRect(x: 0, y: 0, width: 196, height: 208)
-        let hud = BYAudioHudView(frame:rect)
-        hud.handler = { [weak self](operation, audioName, audioFullPath) in
-            if BYAudioOperationState.stop.rawValue == operation {
-                if let path = audioFullPath {
-                    self?.resultLabel.text = "录制结果\(path)"
-                }
+lazy var hud: BYAudioHudView = {
+    let rect = CGRect(x: 0, y: 0, width: 196, height: 208)
+    let hud = BYAudioHudView(frame:rect)
+    hud.handler = { [weak self](operation, audioName, audioFullPath) in
+        if BYAudioOperationState.stop.rawValue == operation {
+            if let path = audioFullPath {
+                self?.resultLabel.text = "录制结果\(path)"
             }
         }
-        return hud
-    }()
-
-    @IBAction func showHud(_ sender: Any) {
-        hud.startRecordingHUD(at: self.view)
     }
+    return hud
+}()
+
+@IBAction func showHud(_ sender: Any) {
+    hud.startRecordingHUD(at: self.view)
+}
 ```
 
