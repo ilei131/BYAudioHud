@@ -3,174 +3,171 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D45460420D612DA00286782 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D45460320D612DA00286782 /* AppDelegate.m */; };
-		7D45460720D612DA00286782 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D45460620D612DA00286782 /* ViewController.m */; };
-		7D45460A20D612DA00286782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D45460820D612DA00286782 /* Main.storyboard */; };
-		7D45460C20D612DA00286782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D45460B20D612DA00286782 /* Assets.xcassets */; };
-		7D45460F20D612DA00286782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D45460D20D612DA00286782 /* LaunchScreen.storyboard */; };
-		7D45461220D612DA00286782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D45461120D612DA00286782 /* main.m */; };
-		7D45462720D6432900286782 /* RecordingBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D45461B20D6432900286782 /* RecordingBkg@2x.png */; };
-		7D45462820D6432900286782 /* RecordingSignal001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D45461C20D6432900286782 /* RecordingSignal001@2x.png */; };
-		7D45462920D6432900286782 /* RecordingSignal002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D45461D20D6432900286782 /* RecordingSignal002@2x.png */; };
-		7D45462A20D6432900286782 /* RecordingSignal003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D45461E20D6432900286782 /* RecordingSignal003@2x.png */; };
-		7D45462B20D6432900286782 /* RecordingSignal004@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D45461F20D6432900286782 /* RecordingSignal004@2x.png */; };
-		7D45462C20D6432900286782 /* RecordingSignal005@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D45462020D6432900286782 /* RecordingSignal005@2x.png */; };
-		7D45462D20D6432900286782 /* RecordingSignal006@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D45462120D6432900286782 /* RecordingSignal006@2x.png */; };
-		7D45462E20D6432900286782 /* RecordingSignal007@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D45462220D6432900286782 /* RecordingSignal007@2x.png */; };
-		7D45462F20D6432900286782 /* RecordingSignal008@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D45462320D6432900286782 /* RecordingSignal008@2x.png */; };
-		7D45463020D6432900286782 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D45462620D6432900286782 /* libmp3lame.a */; };
-		7D45463320D6435D00286782 /* BYTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D45463220D6435D00286782 /* BYTimerLabel.m */; };
-		7D45463620D646EE00286782 /* BYAudioHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D45463520D646EE00286782 /* BYAudioHud.m */; };
-		7D45463920D6471900286782 /* BYAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D45463820D6471900286782 /* BYAudioRecorder.m */; };
-		7D45463C20D64A3D00286782 /* BYMp3Writer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D45463B20D64A3D00286782 /* BYMp3Writer.m */; };
-		7D45463F20D693E100286782 /* BYAudioMeterObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D45463E20D693E100286782 /* BYAudioMeterObserver.m */; };
+		5252054E2436D2B800F4F512 /* RecordingSignal003@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BF50882436BA64000AF8C8 /* RecordingSignal003@2x.png */; };
+		5252054F2436D2B800F4F512 /* RecordingSignal001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BF50892436BA64000AF8C8 /* RecordingSignal001@2x.png */; };
+		525205502436D2B800F4F512 /* RecordingBkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BF508A2436BA64000AF8C8 /* RecordingBkg@2x.png */; };
+		525205512436D2B800F4F512 /* RecordingSignal005@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BF508B2436BA64000AF8C8 /* RecordingSignal005@2x.png */; };
+		525205522436D2B800F4F512 /* RecordingSignal007@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BF508C2436BA64000AF8C8 /* RecordingSignal007@2x.png */; };
+		525205532436D2B800F4F512 /* RecordingSignal002@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BF508D2436BA64000AF8C8 /* RecordingSignal002@2x.png */; };
+		525205542436D2B800F4F512 /* RecordingSignal008@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BF508E2436BA64000AF8C8 /* RecordingSignal008@2x.png */; };
+		525205552436D2B800F4F512 /* RecordingSignal004@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BF508F2436BA64000AF8C8 /* RecordingSignal004@2x.png */; };
+		525205562436D2B800F4F512 /* RecordingSignal006@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52BF50902436BA64000AF8C8 /* RecordingSignal006@2x.png */; };
+		5252056E2436E39A00F4F512 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5252056D2436E39A00F4F512 /* libmp3lame.a */; };
+		52BF50732436B6BD000AF8C8 /* BYAudioHud.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BF50712436B6BD000AF8C8 /* BYAudioHud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BF50922436BA64000AF8C8 /* lame.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BF507B2436BA64000AF8C8 /* lame.h */; };
+		52BF50932436BA64000AF8C8 /* BYAudioMeterObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BF507D2436BA64000AF8C8 /* BYAudioMeterObserver.h */; };
+		52BF50942436BA64000AF8C8 /* BYAudioRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BF507E2436BA64000AF8C8 /* BYAudioRecorder.h */; };
+		52BF50952436BA64000AF8C8 /* BYMp3Writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BF507F2436BA64000AF8C8 /* BYMp3Writer.h */; };
+		52BF50962436BA64000AF8C8 /* BYAudioHudView.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BF50802436BA64000AF8C8 /* BYAudioHudView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BF50972436BA64000AF8C8 /* BYTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BF50812436BA64000AF8C8 /* BYTimerLabel.m */; };
+		52BF50982436BA64000AF8C8 /* BYAudioRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BF50822436BA64000AF8C8 /* BYAudioRecorder.m */; };
+		52BF50992436BA64000AF8C8 /* BYAudioMeterObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BF50832436BA64000AF8C8 /* BYAudioMeterObserver.m */; };
+		52BF509A2436BA64000AF8C8 /* BYTimerLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BF50842436BA64000AF8C8 /* BYTimerLabel.h */; };
+		52BF509B2436BA64000AF8C8 /* BYMp3Writer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BF50852436BA64000AF8C8 /* BYMp3Writer.m */; };
+		52BF509C2436BA64000AF8C8 /* BYAudioHudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BF50862436BA64000AF8C8 /* BYAudioHudView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7D4545FF20D612DA00286782 /* BYAudioHud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BYAudioHud.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D45460220D612DA00286782 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7D45460320D612DA00286782 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7D45460520D612DA00286782 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7D45460620D612DA00286782 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7D45460920D612DA00286782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7D45460B20D612DA00286782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7D45460E20D612DA00286782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7D45461020D612DA00286782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D45461120D612DA00286782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7D45461B20D6432900286782 /* RecordingBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingBkg@2x.png"; sourceTree = "<group>"; };
-		7D45461C20D6432900286782 /* RecordingSignal001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal001@2x.png"; sourceTree = "<group>"; };
-		7D45461D20D6432900286782 /* RecordingSignal002@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal002@2x.png"; sourceTree = "<group>"; };
-		7D45461E20D6432900286782 /* RecordingSignal003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal003@2x.png"; sourceTree = "<group>"; };
-		7D45461F20D6432900286782 /* RecordingSignal004@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal004@2x.png"; sourceTree = "<group>"; };
-		7D45462020D6432900286782 /* RecordingSignal005@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal005@2x.png"; sourceTree = "<group>"; };
-		7D45462120D6432900286782 /* RecordingSignal006@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal006@2x.png"; sourceTree = "<group>"; };
-		7D45462220D6432900286782 /* RecordingSignal007@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal007@2x.png"; sourceTree = "<group>"; };
-		7D45462320D6432900286782 /* RecordingSignal008@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal008@2x.png"; sourceTree = "<group>"; };
-		7D45462520D6432900286782 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
-		7D45462620D6432900286782 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
-		7D45463120D6435D00286782 /* BYTimerLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYTimerLabel.h; sourceTree = "<group>"; };
-		7D45463220D6435D00286782 /* BYTimerLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYTimerLabel.m; sourceTree = "<group>"; };
-		7D45463420D646EE00286782 /* BYAudioHud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYAudioHud.h; sourceTree = "<group>"; };
-		7D45463520D646EE00286782 /* BYAudioHud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYAudioHud.m; sourceTree = "<group>"; };
-		7D45463720D6471900286782 /* BYAudioRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYAudioRecorder.h; sourceTree = "<group>"; };
-		7D45463820D6471900286782 /* BYAudioRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYAudioRecorder.m; sourceTree = "<group>"; };
-		7D45463A20D64A3D00286782 /* BYMp3Writer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYMp3Writer.h; sourceTree = "<group>"; };
-		7D45463B20D64A3D00286782 /* BYMp3Writer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYMp3Writer.m; sourceTree = "<group>"; };
-		7D45463D20D693E100286782 /* BYAudioMeterObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYAudioMeterObserver.h; sourceTree = "<group>"; };
-		7D45463E20D693E100286782 /* BYAudioMeterObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYAudioMeterObserver.m; sourceTree = "<group>"; };
+		5252056D2436E39A00F4F512 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		52BF506E2436B6BD000AF8C8 /* BYAudioHud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BYAudioHud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BF50712436B6BD000AF8C8 /* BYAudioHud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYAudioHud.h; sourceTree = "<group>"; };
+		52BF50722436B6BD000AF8C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BF507B2436BA64000AF8C8 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		52BF507D2436BA64000AF8C8 /* BYAudioMeterObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYAudioMeterObserver.h; sourceTree = "<group>"; };
+		52BF507E2436BA64000AF8C8 /* BYAudioRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYAudioRecorder.h; sourceTree = "<group>"; };
+		52BF507F2436BA64000AF8C8 /* BYMp3Writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYMp3Writer.h; sourceTree = "<group>"; };
+		52BF50802436BA64000AF8C8 /* BYAudioHudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYAudioHudView.h; sourceTree = "<group>"; };
+		52BF50812436BA64000AF8C8 /* BYTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYTimerLabel.m; sourceTree = "<group>"; };
+		52BF50822436BA64000AF8C8 /* BYAudioRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYAudioRecorder.m; sourceTree = "<group>"; };
+		52BF50832436BA64000AF8C8 /* BYAudioMeterObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYAudioMeterObserver.m; sourceTree = "<group>"; };
+		52BF50842436BA64000AF8C8 /* BYTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTimerLabel.h; sourceTree = "<group>"; };
+		52BF50852436BA64000AF8C8 /* BYMp3Writer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYMp3Writer.m; sourceTree = "<group>"; };
+		52BF50862436BA64000AF8C8 /* BYAudioHudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYAudioHudView.m; sourceTree = "<group>"; };
+		52BF50882436BA64000AF8C8 /* RecordingSignal003@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal003@2x.png"; sourceTree = "<group>"; };
+		52BF50892436BA64000AF8C8 /* RecordingSignal001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal001@2x.png"; sourceTree = "<group>"; };
+		52BF508A2436BA64000AF8C8 /* RecordingBkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingBkg@2x.png"; sourceTree = "<group>"; };
+		52BF508B2436BA64000AF8C8 /* RecordingSignal005@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal005@2x.png"; sourceTree = "<group>"; };
+		52BF508C2436BA64000AF8C8 /* RecordingSignal007@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal007@2x.png"; sourceTree = "<group>"; };
+		52BF508D2436BA64000AF8C8 /* RecordingSignal002@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal002@2x.png"; sourceTree = "<group>"; };
+		52BF508E2436BA64000AF8C8 /* RecordingSignal008@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal008@2x.png"; sourceTree = "<group>"; };
+		52BF508F2436BA64000AF8C8 /* RecordingSignal004@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal004@2x.png"; sourceTree = "<group>"; };
+		52BF50902436BA64000AF8C8 /* RecordingSignal006@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RecordingSignal006@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7D4545FC20D612DA00286782 /* Frameworks */ = {
+		52BF506B2436B6BD000AF8C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D45463020D6432900286782 /* libmp3lame.a in Frameworks */,
+				5252056E2436E39A00F4F512 /* libmp3lame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7D4545F620D612DA00286782 = {
+		52BF50642436B6BD000AF8C8 = {
 			isa = PBXGroup;
 			children = (
-				7D45460120D612DA00286782 /* BYAudioHud */,
-				7D45460020D612DA00286782 /* Products */,
+				52BF50702436B6BD000AF8C8 /* BYAudioHud */,
+				52BF506F2436B6BD000AF8C8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7D45460020D612DA00286782 /* Products */ = {
+		52BF506F2436B6BD000AF8C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7D4545FF20D612DA00286782 /* BYAudioHud.app */,
+				52BF506E2436B6BD000AF8C8 /* BYAudioHud.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7D45460120D612DA00286782 /* BYAudioHud */ = {
+		52BF50702436B6BD000AF8C8 /* BYAudioHud */ = {
 			isa = PBXGroup;
 			children = (
-				7D45461820D6432900286782 /* BYAudioHud */,
-				7D45460220D612DA00286782 /* AppDelegate.h */,
-				7D45460320D612DA00286782 /* AppDelegate.m */,
-				7D45460520D612DA00286782 /* ViewController.h */,
-				7D45460620D612DA00286782 /* ViewController.m */,
-				7D45460820D612DA00286782 /* Main.storyboard */,
-				7D45460B20D612DA00286782 /* Assets.xcassets */,
-				7D45460D20D612DA00286782 /* LaunchScreen.storyboard */,
-				7D45461020D612DA00286782 /* Info.plist */,
-				7D45461120D612DA00286782 /* main.m */,
+				52BF507C2436BA64000AF8C8 /* core */,
+				52BF50872436BA64000AF8C8 /* images */,
+				52BF50792436BA64000AF8C8 /* lame */,
+				52BF50712436B6BD000AF8C8 /* BYAudioHud.h */,
+				52BF50722436B6BD000AF8C8 /* Info.plist */,
 			);
 			path = BYAudioHud;
 			sourceTree = "<group>";
 		};
-		7D45461820D6432900286782 /* BYAudioHud */ = {
+		52BF50792436BA64000AF8C8 /* lame */ = {
 			isa = PBXGroup;
 			children = (
-				7D45461920D6432900286782 /* core */,
-				7D45461A20D6432900286782 /* images */,
-				7D45462420D6432900286782 /* lame */,
-			);
-			path = BYAudioHud;
-			sourceTree = "<group>";
-		};
-		7D45461920D6432900286782 /* core */ = {
-			isa = PBXGroup;
-			children = (
-				7D45463120D6435D00286782 /* BYTimerLabel.h */,
-				7D45463220D6435D00286782 /* BYTimerLabel.m */,
-				7D45463420D646EE00286782 /* BYAudioHud.h */,
-				7D45463520D646EE00286782 /* BYAudioHud.m */,
-				7D45463720D6471900286782 /* BYAudioRecorder.h */,
-				7D45463820D6471900286782 /* BYAudioRecorder.m */,
-				7D45463A20D64A3D00286782 /* BYMp3Writer.h */,
-				7D45463B20D64A3D00286782 /* BYMp3Writer.m */,
-				7D45463D20D693E100286782 /* BYAudioMeterObserver.h */,
-				7D45463E20D693E100286782 /* BYAudioMeterObserver.m */,
-			);
-			path = core;
-			sourceTree = "<group>";
-		};
-		7D45461A20D6432900286782 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				7D45461B20D6432900286782 /* RecordingBkg@2x.png */,
-				7D45461C20D6432900286782 /* RecordingSignal001@2x.png */,
-				7D45461D20D6432900286782 /* RecordingSignal002@2x.png */,
-				7D45461E20D6432900286782 /* RecordingSignal003@2x.png */,
-				7D45461F20D6432900286782 /* RecordingSignal004@2x.png */,
-				7D45462020D6432900286782 /* RecordingSignal005@2x.png */,
-				7D45462120D6432900286782 /* RecordingSignal006@2x.png */,
-				7D45462220D6432900286782 /* RecordingSignal007@2x.png */,
-				7D45462320D6432900286782 /* RecordingSignal008@2x.png */,
-			);
-			path = images;
-			sourceTree = "<group>";
-		};
-		7D45462420D6432900286782 /* lame */ = {
-			isa = PBXGroup;
-			children = (
-				7D45462520D6432900286782 /* lame.h */,
-				7D45462620D6432900286782 /* libmp3lame.a */,
+				5252056D2436E39A00F4F512 /* libmp3lame.a */,
+				52BF507B2436BA64000AF8C8 /* lame.h */,
 			);
 			path = lame;
 			sourceTree = "<group>";
 		};
+		52BF507C2436BA64000AF8C8 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				52BF507D2436BA64000AF8C8 /* BYAudioMeterObserver.h */,
+				52BF507E2436BA64000AF8C8 /* BYAudioRecorder.h */,
+				52BF507F2436BA64000AF8C8 /* BYMp3Writer.h */,
+				52BF50802436BA64000AF8C8 /* BYAudioHudView.h */,
+				52BF50812436BA64000AF8C8 /* BYTimerLabel.m */,
+				52BF50822436BA64000AF8C8 /* BYAudioRecorder.m */,
+				52BF50832436BA64000AF8C8 /* BYAudioMeterObserver.m */,
+				52BF50842436BA64000AF8C8 /* BYTimerLabel.h */,
+				52BF50852436BA64000AF8C8 /* BYMp3Writer.m */,
+				52BF50862436BA64000AF8C8 /* BYAudioHudView.m */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		52BF50872436BA64000AF8C8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				52BF50882436BA64000AF8C8 /* RecordingSignal003@2x.png */,
+				52BF50892436BA64000AF8C8 /* RecordingSignal001@2x.png */,
+				52BF508A2436BA64000AF8C8 /* RecordingBkg@2x.png */,
+				52BF508B2436BA64000AF8C8 /* RecordingSignal005@2x.png */,
+				52BF508C2436BA64000AF8C8 /* RecordingSignal007@2x.png */,
+				52BF508D2436BA64000AF8C8 /* RecordingSignal002@2x.png */,
+				52BF508E2436BA64000AF8C8 /* RecordingSignal008@2x.png */,
+				52BF508F2436BA64000AF8C8 /* RecordingSignal004@2x.png */,
+				52BF50902436BA64000AF8C8 /* RecordingSignal006@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		52BF50692436B6BD000AF8C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BF509A2436BA64000AF8C8 /* BYTimerLabel.h in Headers */,
+				52BF50962436BA64000AF8C8 /* BYAudioHudView.h in Headers */,
+				52BF50952436BA64000AF8C8 /* BYMp3Writer.h in Headers */,
+				52BF50932436BA64000AF8C8 /* BYAudioMeterObserver.h in Headers */,
+				52BF50732436B6BD000AF8C8 /* BYAudioHud.h in Headers */,
+				52BF50942436BA64000AF8C8 /* BYAudioRecorder.h in Headers */,
+				52BF50922436BA64000AF8C8 /* lame.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		7D4545FE20D612DA00286782 /* BYAudioHud */ = {
+		52BF506D2436B6BD000AF8C8 /* BYAudioHud */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D45461520D612DA00286782 /* Build configuration list for PBXNativeTarget "BYAudioHud" */;
+			buildConfigurationList = 52BF50762436B6BD000AF8C8 /* Build configuration list for PBXNativeTarget "BYAudioHud" */;
 			buildPhases = (
-				7D4545FB20D612DA00286782 /* Sources */,
-				7D4545FC20D612DA00286782 /* Frameworks */,
-				7D4545FD20D612DA00286782 /* Resources */,
+				52BF50692436B6BD000AF8C8 /* Headers */,
+				52BF506A2436B6BD000AF8C8 /* Sources */,
+				52BF506B2436B6BD000AF8C8 /* Frameworks */,
+				52BF506C2436B6BD000AF8C8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -178,103 +175,77 @@
 			);
 			name = BYAudioHud;
 			productName = BYAudioHud;
-			productReference = 7D4545FF20D612DA00286782 /* BYAudioHud.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 52BF506E2436B6BD000AF8C8 /* BYAudioHud.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7D4545F720D612DA00286782 /* Project object */ = {
+		52BF50652436B6BD000AF8C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
-				ORGANIZATIONNAME = Zhanggf;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = baoyu;
 				TargetAttributes = {
-					7D4545FE20D612DA00286782 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+					52BF506D2436B6BD000AF8C8 = {
+						CreatedOnToolsVersion = 11.2;
 					};
 				};
 			};
-			buildConfigurationList = 7D4545FA20D612DA00286782 /* Build configuration list for PBXProject "BYAudioHud" */;
-			compatibilityVersion = "Xcode 8.0";
+			buildConfigurationList = 52BF50682436B6BD000AF8C8 /* Build configuration list for PBXProject "BYAudioHud" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 7D4545F620D612DA00286782;
-			productRefGroup = 7D45460020D612DA00286782 /* Products */;
+			mainGroup = 52BF50642436B6BD000AF8C8;
+			productRefGroup = 52BF506F2436B6BD000AF8C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7D4545FE20D612DA00286782 /* BYAudioHud */,
+				52BF506D2436B6BD000AF8C8 /* BYAudioHud */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7D4545FD20D612DA00286782 /* Resources */ = {
+		52BF506C2436B6BD000AF8C8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D45462820D6432900286782 /* RecordingSignal001@2x.png in Resources */,
-				7D45462F20D6432900286782 /* RecordingSignal008@2x.png in Resources */,
-				7D45460F20D612DA00286782 /* LaunchScreen.storyboard in Resources */,
-				7D45462C20D6432900286782 /* RecordingSignal005@2x.png in Resources */,
-				7D45462720D6432900286782 /* RecordingBkg@2x.png in Resources */,
-				7D45462920D6432900286782 /* RecordingSignal002@2x.png in Resources */,
-				7D45460C20D612DA00286782 /* Assets.xcassets in Resources */,
-				7D45462E20D6432900286782 /* RecordingSignal007@2x.png in Resources */,
-				7D45462B20D6432900286782 /* RecordingSignal004@2x.png in Resources */,
-				7D45460A20D612DA00286782 /* Main.storyboard in Resources */,
-				7D45462A20D6432900286782 /* RecordingSignal003@2x.png in Resources */,
-				7D45462D20D6432900286782 /* RecordingSignal006@2x.png in Resources */,
+				525205522436D2B800F4F512 /* RecordingSignal007@2x.png in Resources */,
+				5252054F2436D2B800F4F512 /* RecordingSignal001@2x.png in Resources */,
+				525205502436D2B800F4F512 /* RecordingBkg@2x.png in Resources */,
+				525205562436D2B800F4F512 /* RecordingSignal006@2x.png in Resources */,
+				525205542436D2B800F4F512 /* RecordingSignal008@2x.png in Resources */,
+				525205532436D2B800F4F512 /* RecordingSignal002@2x.png in Resources */,
+				525205552436D2B800F4F512 /* RecordingSignal004@2x.png in Resources */,
+				525205512436D2B800F4F512 /* RecordingSignal005@2x.png in Resources */,
+				5252054E2436D2B800F4F512 /* RecordingSignal003@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7D4545FB20D612DA00286782 /* Sources */ = {
+		52BF506A2436B6BD000AF8C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D45460720D612DA00286782 /* ViewController.m in Sources */,
-				7D45463320D6435D00286782 /* BYTimerLabel.m in Sources */,
-				7D45461220D612DA00286782 /* main.m in Sources */,
-				7D45463F20D693E100286782 /* BYAudioMeterObserver.m in Sources */,
-				7D45463620D646EE00286782 /* BYAudioHud.m in Sources */,
-				7D45460420D612DA00286782 /* AppDelegate.m in Sources */,
-				7D45463C20D64A3D00286782 /* BYMp3Writer.m in Sources */,
-				7D45463920D6471900286782 /* BYAudioRecorder.m in Sources */,
+				52BF509B2436BA64000AF8C8 /* BYMp3Writer.m in Sources */,
+				52BF50972436BA64000AF8C8 /* BYTimerLabel.m in Sources */,
+				52BF50992436BA64000AF8C8 /* BYAudioMeterObserver.m in Sources */,
+				52BF509C2436BA64000AF8C8 /* BYAudioHudView.m in Sources */,
+				52BF50982436BA64000AF8C8 /* BYAudioRecorder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		7D45460820D612DA00286782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D45460920D612DA00286782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7D45460D20D612DA00286782 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D45460E20D612DA00286782 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		7D45461320D612DA00286782 /* Debug */ = {
+		52BF50742436B6BD000AF8C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,10 +255,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -295,6 +268,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -303,8 +277,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -322,14 +296,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		7D45461420D612DA00286782 /* Release */ = {
+		52BF50752436B6BD000AF8C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -339,10 +316,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -350,6 +329,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -358,8 +338,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -371,49 +351,68 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		7D45461620D612DA00286782 /* Debug */ = {
+		52BF50772436B6BD000AF8C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 22L66TY73B;
-				ENABLE_BITCODE = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BYAudioHud/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/BYAudioHud/BYAudioHud/lame",
+					"$(PROJECT_DIR)/BYAudioHud/lame",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fhc.jinyin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilei.BYAudioHud;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7D45461720D612DA00286782 /* Release */ = {
+		52BF50782436B6BD000AF8C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 22L66TY73B;
-				ENABLE_BITCODE = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = BYAudioHud/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/BYAudioHud/BYAudioHud/lame",
+					"$(PROJECT_DIR)/BYAudioHud/lame",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fhc.jinyin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilei.BYAudioHud;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -421,25 +420,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7D4545FA20D612DA00286782 /* Build configuration list for PBXProject "BYAudioHud" */ = {
+		52BF50682436B6BD000AF8C8 /* Build configuration list for PBXProject "BYAudioHud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D45461320D612DA00286782 /* Debug */,
-				7D45461420D612DA00286782 /* Release */,
+				52BF50742436B6BD000AF8C8 /* Debug */,
+				52BF50752436B6BD000AF8C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D45461520D612DA00286782 /* Build configuration list for PBXNativeTarget "BYAudioHud" */ = {
+		52BF50762436B6BD000AF8C8 /* Build configuration list for PBXNativeTarget "BYAudioHud" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D45461620D612DA00286782 /* Debug */,
-				7D45461720D612DA00286782 /* Release */,
+				52BF50772436B6BD000AF8C8 /* Debug */,
+				52BF50782436B6BD000AF8C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7D4545F720D612DA00286782 /* Project object */;
+	rootObject = 52BF50652436B6BD000AF8C8 /* Project object */;
 }

@@ -1,0 +1,6 @@
+framework module BYAudioHud {
+  umbrella header "BYAudioHud.h"
+
+  export *
+  module * { export * }
+}
